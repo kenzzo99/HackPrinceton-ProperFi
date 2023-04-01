@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star} from "../assets";
 
 export const navLinks = [
   {
@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Yield",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Earn revenue as the property is being rented out during high-season",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Governance",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "You don't own just a portion of the economic rights - you own part of the property. Propose and participate in decisions regarding your rental.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Experience",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Get free stays during off-season through our timesharing system. ",
   },
 ];
 
@@ -73,18 +73,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "ROI",
+    value: "~18%",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "",
+    value: "Free Stays",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "",
+    value: "Worldwide",
   },
 ];
 
