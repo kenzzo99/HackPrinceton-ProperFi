@@ -8,7 +8,7 @@ const Listings = () => (
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
       <h2 className={styles.heading2}>
-        Properties around the world at your fingertips
+        Properties from around the world at your fingertips
       </h2>
     </div>
 

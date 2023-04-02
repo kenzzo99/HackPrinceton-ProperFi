@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <div>
       <nav className='w-full flex py-6 justify-start items-center navbar'>
-        
+      
         <ul className='list-none sm:flex hidden justify-end items-center flxe-1'>
           {
             navLinks.map((el, index)=>{
@@ -20,6 +20,7 @@ const NavBar = () => {
               )
             })
           }
+          
         </ul>
         
         <div className='sm:hidden flex flex-1 justify-end items-center'>

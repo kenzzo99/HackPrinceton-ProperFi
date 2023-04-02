@@ -28,8 +28,6 @@ const Business = () =>  (
         With established hubs in popular tourist destinations, we will provide in-house property management,
         ensuring high quality of service and decreasing operating costs. 
       </p>
-
-      <Button styles={`mt-10`} />
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
