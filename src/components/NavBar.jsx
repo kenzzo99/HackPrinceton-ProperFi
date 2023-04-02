@@ -7,7 +7,6 @@ const NavBar = () => {
   return (
     <div>
       <nav className='w-full flex py-6 justify-start items-center navbar'>
-      
         <ul className='list-none sm:flex hidden justify-end items-center flxe-1'>
           {
             navLinks.map((el, index)=>{
@@ -22,10 +21,10 @@ const NavBar = () => {
           }
           
         </ul>
-        
+        <div className='text-white text-lg text-bold text justify-end items-center'>ProperFi</div>
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img src={toggle ? close : menu} alt="menu" className="w-[28px] h-[28px] object-contain"  onClick={()=>setToggle((prev)=>!prev)}/>
-
+          
           <div className={`${ toggle ? 'flex': 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
             <ul className='list-none flex flex-col justify-end items-center flex-1'>
               {
@@ -39,8 +38,9 @@ const NavBar = () => {
                   )
                 })
               }
+              
             </ul>
-            <div className='text-white text-lg items-center'>ProperFi</div>
+            
           </div>
         </div>
         
