@@ -21,7 +21,6 @@ const NavBar = () => {
           }
           
         </ul>
-        <div className='text-white text-lg text-bold text justify-end items-center'>ProperFi</div>
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img src={toggle ? close : menu} alt="menu" className="w-[28px] h-[28px] object-contain"  onClick={()=>setToggle((prev)=>!prev)}/>
           
